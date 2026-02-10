@@ -13,7 +13,7 @@ body {
   align-items: center;
   background-color: cadetblue;
 }
-
+/*center the text*/
 .title {
   padding: 50px 25px;
   text-align: center;
@@ -28,16 +28,16 @@ h4 {
   font-size: 1.5rem;
   font-weight: 300;
 }
-
+/* Make sure the image stretches to fill its area but stays clear */
 img {
-  display: block;
-  width: 100%;   
-  height: auto;   
-  object-fit: cover;
+  display: block;  
+  object-fit: cover; 
+  width: 100%;  
+  height: auto;
 }
 
 
-
+/* When the screen is big , put text and image side-by-side */
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
